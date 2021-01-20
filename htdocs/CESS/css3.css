@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color:#dcdce4;
+}
+nav{
+    background: rgb(20, 20, 20);
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a{
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.carrito{
+    float: right;
+}
+
+.carrito-active{
+    background: white;
+}
+.carrito-active a{
+    color: black;
+}
+
+main{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.articulo{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+}
+.articulo div{
+    padding: 5px 0;
+}
+.articulo .imagen img{
+    height: 200px;
+}
+
+.articulo .titulo{
+    font-weight: bold;
+    font-size: 18px;
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    background: rgb(18, 89, 148);
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(228, 224, 224);
+}
+.btonu{
+    border: 0;
+    border-radius: 5px;
+    background: rgb(18, 89, 148);
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(228, 224, 224);
+
+
+}
+
+.ea:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.eo:link, a:visited {
+    background-color: #378cfc;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.e:link, .e:visited {
+    background-color: #3698f4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+
+
+
+#carrito-container{
+    width: 400px;
+    background: white;
+    border: solid 1px rgb(46, 46, 46);
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+#tabla .fila{
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+#tabla .fila .imagen{
+    display: inline-block;
+    width: 100px;
+}
+#tabla .fila .info{
+    box-sizing: border-box;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 273px;
+}
+
+#tabla .fila .info .nombre{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabla .fila .info .botones{
+    padding: 20px 0 0 0;
+}
+
+#tabla p{
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: bold;
+}
